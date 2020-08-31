@@ -1,3 +1,3 @@
 require 'slack-ruby-bot'
-require 'lib/commands/bot_commands'
-require 'lib/bot'
+require 'lib/commands/get_episode.rb'
+require 'lib/bot.rb'
