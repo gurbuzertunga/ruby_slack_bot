@@ -5,4 +5,4 @@ Dotenv.load
 
 require_relative 'main.rb'
 
-DriftingRuby::Bot.run
+RubyCodes::Bot.run
