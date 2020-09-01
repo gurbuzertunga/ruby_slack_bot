@@ -1,7 +1,6 @@
 require 'open-uri'
 
 module RubyCodes
-  module Commands
     class GetWiki < SlackRubyBot::Commands::Base
       command 'strings' do |client, data, _match|
         client.say(channel: data.channel, text: 'https://en.wikipedia.org/wiki/Ruby_(programming_language)#Strings')
@@ -27,7 +26,6 @@ module RubyCodes
         client.say(channel: data.channel, text: HelloText.say_hello)
       end
     end
-  end
 end
 
 class HelloText

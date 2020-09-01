@@ -3,6 +3,6 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'dotenv'
 Dotenv.load
 
-require_relative 'main.rb'
+require_relative './bin/main.rb'
 
 RubyCodes::Bot.run
