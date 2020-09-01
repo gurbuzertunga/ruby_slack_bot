@@ -1,3 +1,4 @@
+# rubocop:disable Layout/LineLength
 module RubyCodes
   class Bot < SlackRubyBot::Bot
     help do
@@ -37,3 +38,4 @@ module RubyCodes
     end
   end
 end
+# rubocop:enable Layout/LineLength
