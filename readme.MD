@@ -1,16 +1,15 @@
-# Bubble Sort
+# Ruby Capstone Project - Slack Bot
 
-> For this project, we created two **sorting algorithms** that use the [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) method.
+> This is a Slack Bot Project for Ruby learners. I chose this subject as a newbie in programming I always need reminders about code blocks as well.
 
-This side-by-side comparative method is seen in the GIF image below.
-
-> The second bubble sort method sorts an array of strings by the length of each element using the "yield" keyword and a code block.
+![screenshot](./assets/screenshot.png)
 
 ## Built With
-
-- Ruby
-- VSCode
-- Rubocop
+* Ruby
+* Slack API
+* Ruby Gems
+* slack-ruby-bot Gem
+* Rubocop
 
 ## Live Demo
 
