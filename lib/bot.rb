@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 # rubocop:disable Layout/LineLength
 module RubyCodes
+  # SlackBot Class Explanations#
   class Bot < SlackRubyBot::Bot
     help do
       title 'Ruby Codes Bot'
@@ -16,12 +19,6 @@ module RubyCodes
         desc 'Returns the url of the wiki page of Ruby Arrays'
         long_desc 'Arrays are ordered, integer-indexed collections of any object.
         Array indexing starts at 0, as in C or Java. A negative index is assumed to be relative to the end of the array---that is, an index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.'
-      end
-
-      command :control_structures do
-        title 'control_structures'
-        desc 'Returns the url of the wiki page of Ruby Control Structures'
-        long_desc 'Ruby has all the usual control structures, such as if statements and while loops. Java, C, and Perl programmers may well get caught by the lack of braces around the bodies of these statements. Instead, Ruby uses the keyword end to signify the end of a body.'
       end
 
       command :blocks_and_iterators do

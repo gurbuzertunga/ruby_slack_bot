@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 require 'open-uri'
 
 module RubyCodes
+  # SlackBot command methods#
   class GetWiki < SlackRubyBot::Commands::Base
     command 'strings' do |client, data, _match|
       client.say(channel: data.channel, text: 'https://en.wikipedia.org/wiki/Ruby_(programming_language)#Strings')
@@ -8,10 +11,6 @@ module RubyCodes
 
     command 'arrays' do |client, data, _match|
       client.say(channel: data.channel, text: 'https://en.wikipedia.org/wiki/Ruby_(programming_language)#Collections')
-    end
-
-    command 'control_structures' do |client, data, _match|
-      client.say(channel: data.channel, text: 'https://en.wikipedia.org/wiki/Ruby_(programming_language)#Control_structures')
     end
 
     command 'blocks_and_iterators' do |client, data, _match|
@@ -28,6 +27,7 @@ module RubyCodes
   end
 end
 
+# says hello#
 class HelloText
   def self.say_hello
     'Hello! This is a Bot!'

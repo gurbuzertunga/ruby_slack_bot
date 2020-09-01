@@ -2,6 +2,8 @@
 
 > This is a Slack Bot Project for Ruby learners. I chose this subject as a newbie in programming I always need reminders about code blocks as well.
 
+My version of the Slack bot will return basic concepts of ruby as a reminder to you. For example if you type @your_bot strings, you'll be led to a wiki page of ruby strings. Same works with arrays, classes etc. For full list of commands type @your_bot help in your channel
+
 ![screenshot](./assets/screenshot.png)
 
 ## Built With
