@@ -1,5 +1,5 @@
 # rubocop:disable Layout/LineLength
-
+system 'bundle install'
 require 'rspec/expectations'
 
 RSpec::Matchers.define :respond_with_slack_message do |expected|
