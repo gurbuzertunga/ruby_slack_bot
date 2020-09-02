@@ -1,2 +1,2 @@
---require rspec ./spec/spec_helper.rb
+--require spec_helper
 --format documentation
