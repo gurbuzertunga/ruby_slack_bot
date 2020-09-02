@@ -103,7 +103,6 @@ PLATFORMS
 
 DEPENDENCIES
   async-websocket (~> 0.8.0)
-  bundler
   celluloid-io
   dotenv
   puma
