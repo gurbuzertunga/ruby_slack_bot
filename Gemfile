@@ -7,6 +7,7 @@ gem 'celluloid-io'
 gem 'dotenv'
 gem 'puma'
 gem 'slack-ruby-bot'
+gem 'bundler'
 
 group :development, :test do
   gem 'rack-test'
