@@ -1,3 +1,5 @@
+# rubocop:disable Layout/LineLength
+
 require 'rspec/expectations'
 
 RSpec::Matchers.define :respond_with_slack_message do |expected|
@@ -52,3 +54,5 @@ describe SlackRubyBot::Commands do
     expect(message: "#{SlackRubyBot.config.user} say_hello").to respond_with_slack_message
   end
 end
+
+# rubocop:enable Layout/LineLength
