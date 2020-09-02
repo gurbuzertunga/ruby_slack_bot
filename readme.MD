@@ -41,7 +41,13 @@ Add 'incoming-webhooks', 'im:write', 'chat:write', 'channels:history', 'app_ment
 **Step 8**<br>
 Run ```rackup``` to run the rack  from your terminal window. It needs to be run to create a local server and make a tunnel to the internet.<br>
 **Step 12**<br>
-Open the Slack and go to workspace page. Invite your bot to your page. To see available commands ask for @your_bot help<br>
+Open the Slack and go to workspace page. Invite your bot to your page. To see available commands ask for @your_bot help.
+List of available commands: are as follows:
+@your_bot strings: Returns the url of the wiki page of Ruby Strings
+@your_bot arrays: Returns the url of the wiki page of Ruby Arrays
+@your_bot blocks_and_iterators: Returns the url of the wiki page of Ruby Blocks and Iterators
+@your_bot classes: Returns the url of the wiki page of Ruby Classes
+@your_bot help: Returns the full list of commands<br>
 **Step 13**<br>
 It will answer you and follow the instructions of help to interact.<br>
 **Step 14**<br>
