@@ -62,7 +62,7 @@ Enjoy!<br>
 ## :handshake: Contributing
 
 ## Show your support
-If you've read this far, you must like the project! Give us a :star:️!
+If you've read this far, you must like the project! Give us a :star:️!   
 
 ## Acknowledgments
 - Our thanks to Microverse and all our peers and colleagues there.
