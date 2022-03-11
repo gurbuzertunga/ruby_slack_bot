@@ -58,7 +58,7 @@ Enjoy!<br>
 :bust_in_silhouette:**Gürbüz Ertunga**
 - Github: [@gurbuzertunga](https://github.com/gurbuzertunga)
 - LinkedIn: [@Gurbuz Ertunga](https://www.linkedin.com/in/gurbuz-ertunga-a607a2a5/)
-
+  
 ## :handshake: Contributing
 
 ## Show your support
